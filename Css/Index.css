@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.container{
+padding:80px 120px;
+margin: auto;
+
+
+}
+
+.pizza{
+width:85%;
+margin-bottom:25px;
+height:80%;
+border:10px solid transparent;
+opacity:0.7;
+margin-left:30px;
+}
+
+.pizza:hover{
+border-color:#f1f1f1;
+}
+
+
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+    width:100%;
+    margin:auto;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+
+.navbar.navbar-default{
+  margin-bottom: 0;
+  background-color:white;
+  border:0;
+  letter-spacing: 4px;
+  opacity: 0.9;
+
+}
+
+.navbar-nav li a:hover{
+  color:black;
+
+}
+
+.navbar-default .navbar-toggle{
+  border-color: transparent;
+
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #d5d5d5;
+}
+
+.form-control{
+  border-radius:0;
+}
+
+.btn{
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+
+}
+
+.btn:hover,btn:focus{
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+
+}
+
+textarea{
+resize: none;
+
+}
+.col-md-4{
+  width: 30%;
+  margin-top: inherit;
+  padding-top: 50px;
+  padding-right: 90px
+
+}
+
+.container h2{
+  font-size:100px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  padding: 10px 10px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  margin-left: 40%;
+}
+
+.modal-header, h4, .close {
+  background-color: #333;
+  text-align: center;
+  font-size: 30px;
+}
+
+.modal-header,.modal-body{
+  padding: 40px 50px;
+
+}
+
+#restaurents{
+margin-top:85px;
+border:2px solid transparent;
+justify-content:space-evenly;
+
+}
